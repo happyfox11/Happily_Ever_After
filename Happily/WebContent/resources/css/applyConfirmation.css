@@ -1,0 +1,148 @@
+
+/*section*/
+#content{
+	width:962px;
+	height:700px;
+	margin:0 auto;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#content:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*메뉴section*/
+#contentNav{
+	width:200px;
+	height:250px;
+	float:left;
+	
+}
+#contentNav>ul{
+	
+	list-style:none;
+}
+#contentNav>ul>li{
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	/*background-color:rgba(16,95,151);*/
+	background-color:#0B0B61;
+	color:#fff;
+	font-family: 'Concert One', cursive;
+	font-size:20px;
+}
+#contentNav>ul>ul{
+	
+	list-style:none;
+	text-indent:30px;
+}
+#contentNav>ul>ul>li{
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	font-family: 'Yeon Sung', cursive;
+}
+#contentNav>ul>ul>li>a{
+	display:block;
+	font-family: 'Yeon Sung', cursive;
+}
+
+/*컨텐츠section*/
+#mainCont{
+	width:760px;
+	height:700px;
+	border-left:1px solid #ccc;
+	float:left;
+}
+h1{
+	border-bottom:1px solid #000;
+	width:700px;
+	height:100px;
+	line-height:100px;
+	margin:0 auto;
+	font-family: 'Yeon Sung', cursive;
+	font-size:40px;
+}
+
+
+
+.link{
+	font-family: 'Yeon Sung', cursive;
+	color:#fff;
+	border:1px solid #000;
+	display:block;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius: 20px;
+	margin:10px 30px 10px 0;
+	float:left;
+}
+
+.butlist{
+	float:left;	
+	/*border:1px solid #0f0;*/
+}
+
+.but1{
+	width:100px;
+	background-color: #256319;
+	font-size:17px;
+	float:left;
+}
+
+.but2{
+	width:100px;
+	background-color: #d41594;
+	font-size:17px;
+	float:left;
+}
+
+.but3{
+	width:100px;
+	background-color: #fcba03;
+	color:#000;
+	font-size:17px;
+	float:left;
+}
+
+
+form>div>input,textarea,select{
+	font-family: 'Yeon Sung', cursive;
+	font-size:20px;
+}
+#box{
+	/*border:1px solid #f00;*/
+	float:left;
+	width:700px;
+	margin:20px 30px 0 30px;
+}
+
+h2{
+	color:#f00;
+	font-family: 'Yeon Sung', cursive;
+}
+h3{
+	font-family: 'Yeon Sung', cursive;
+	text-align:center;
+}
+
+#gray{
+	background-color:#ddd;
+}
+#gray>*{
+	font-family: 'Yeon Sung', cursive;
+}
+
+th{
+	font-family: 'Yeon Sung', cursive;
+	width:200px;
+	color:#1a439c;
+}
+td{
+	font-family: 'Yeon Sung', cursive;
+	text-align:center;;;
+}

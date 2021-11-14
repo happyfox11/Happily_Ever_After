@@ -1,0 +1,74 @@
+/*푸터영역*/
+footer{
+	border-top:1px solid #ccc;
+	height:250px;
+}
+
+#last{
+	width:800px;
+	height:250px;
+	margin:0 auto;
+}
+
+.CMove{
+	width:50px;
+	height:50px;
+	background-color:#0B0B61;
+	border-radius:25px;
+	margin-top:10px;
+	margin-right:10px;
+}
+.CMove img{
+	width:30px;
+	height:30px;
+	margin:10px 0 0 10px;
+}
+.CMove>a{
+		display:block;
+}
+#last:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+#SArea{
+	width:800px;
+	height:65px;
+	border-bottom:1px solid #CCC;
+}
+#SArea:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#SArea>div{
+	float:right;
+}
+#LArea{
+	width:300px;
+	height:180px;
+	float:left;
+}
+#LArea>img{
+	width:200px;
+	height:150px;
+	margin-left:50px;
+}
+#RArea{
+	width:450px;
+	height:180px;
+	float:left;
+	margin-left:50px;
+}
+#RArea>div{
+	width:450px;
+	height:80px;
+	margin:40px 0;
+}
+
+#RArea p{
+	font-size:14px;
+	font-family: 'Kaushan Script', cursive;
+}

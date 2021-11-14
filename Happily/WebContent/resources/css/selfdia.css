@@ -1,0 +1,100 @@
+
+/*section*/
+#content{
+	width:962px;
+	
+	margin:0 auto;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+}
+#content:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*메뉴section*/
+#contentNav{
+	width:200px;
+	height:250px;
+	float:left;
+}
+#contentNav>ul{
+	
+	list-style:none;
+}
+#contentNav>ul>li{
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	/*background-color:rgba(16,95,151);*/
+	background-color:#0B0B61;
+	color:#fff;
+	font-family: 'Concert One', cursive;
+	font-size:20px;
+}
+#contentNav>ul>ul{
+	
+	list-style:none;
+	text-indent:30px;
+}
+#contentNav>ul>ul>li{
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	font-family: 'Yeon Sung', cursive;
+}
+#contentNav>ul>ul>li>a{
+	display:block;
+	font-family: 'Yeon Sung', cursive;
+}
+
+/*컨텐츠section*/
+#mainCont{
+	width:760px;
+	height:600px;
+	border-left:1px solid #CCC;
+	float:left;
+}
+h1{
+	border-bottom:1px solid #000;
+	width:700px;
+	height:100px;
+	line-height:100px;
+	margin:0 auto;
+	font-family: 'Yeon Sung', cursive;
+	font-size:40px;
+}
+table{
+	border-collapse:collapse;
+	border:1px solid #000;
+	margin:30px;
+	text-align:center;
+	
+}
+td{
+	border:1px solid #000;
+	width:300px;
+	height:40px;
+	font-family: 'Yeon Sung', cursive;
+}
+th{
+	border:1px solid #000;
+	width:300px;
+	height:40px;
+	line-height:40px;
+	background-color:#2E64FE;
+	color:#fff;
+	font-family: 'Yeon Sung', cursive;
+}
+td:first-child,th:first-child{
+	border:1px solid #000;
+	width:50px;
+}
+table a{
+	font-family: 'Yeon Sung', cursive;
+}
+td:nth-child(2)>a:hover{
+	color:#f00;
+}
+
