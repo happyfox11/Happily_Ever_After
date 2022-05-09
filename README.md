@@ -1,6 +1,6 @@
 # Happily_Ever_After Ver2.0
 JSP web page that provides information for people's mental and physical health recovery  
-(Version 1 : Using HTML, CSS, JavaScript, JQuery --> Version 2 : +JSP)  
+(Version 1 : Using HTML, CSS, JavaScript, JQuery --> Version 2 : +JSP, MySql)  
 
 ## 시연영상  
 https://www.youtube.com/watch?v=GM0C6OAXOMI  
@@ -20,7 +20,7 @@ hanstar0211@kyonggi.ac.kr
 ## 사용 방법  
 1. eclipse에 Happily 프로젝트를 import 해주세요.  
 2. Servers 프로젝트에 포함되어 있는 tomcat-users.xml에 아래의 4줄을 반드시 추가해주세요. 시큐리티에 의한 로그인에 사용될 것입니다.
-'''xml
+'''
 <role rolename="admin"/>  
 <role rolename="guest"/>  
 <user username="admin" password="admin1234" roles="admin"/>  
@@ -32,7 +32,7 @@ hanstar0211@kyonggi.ac.kr
 6. use happilydb;를 실행해주세요.  
 7. eclipse로 돌아가서 resources 폴더 내의 sql 폴더 내의 qt.sql에서 create table문을 실행해주세요.  
 (eclipse로 이동하지 않고, MySQL Command Line Client창에서 아래의 명령문을 실행해줘도 됩니다.)  
-'''sql
+'''
 CREATE TABLE qt (  
   q_no int(11) NOT NULL AUTO_INCREMENT,  
   q_name varchar(30) NOT NULL,  
