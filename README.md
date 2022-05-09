@@ -20,19 +20,19 @@ hanstar0211@kyonggi.ac.kr
 ## 사용 방법  
 1. eclipse에 Happily 프로젝트를 import 해주세요.  
 2. Servers 프로젝트에 포함되어 있는 tomcat-users.xml에 아래의 4줄을 반드시 추가해주세요. 시큐리티에 의한 로그인에 사용될 것입니다.
-'''
+```
 <role rolename="admin"/>  
 <role rolename="guest"/>  
 <user username="admin" password="admin1234" roles="admin"/>  
 <user username="guest" password="guest1234" roles="guest"/>  
-'''
+```
 3. MySQL Command Line Client를 열어주세요.  
 4. MySQL의 계정은 root이고, 비밀번호는 1234입니다. (자신이 설정한 비밀번호를 입력하면 될 것입니다.)  
 5. create database happilydb;를 실행시켜서 happilydb라는 데이터베이스를 생성해주세요.  
 6. use happilydb;를 실행해주세요.  
 7. eclipse로 돌아가서 resources 폴더 내의 sql 폴더 내의 qt.sql에서 create table문을 실행해주세요.  
 (eclipse로 이동하지 않고, MySQL Command Line Client창에서 아래의 명령문을 실행해줘도 됩니다.)  
-'''
+```
 CREATE TABLE qt (  
   q_no int(11) NOT NULL AUTO_INCREMENT,  
   q_name varchar(30) NOT NULL,  
@@ -41,7 +41,7 @@ CREATE TABLE qt (
   q_writeDate timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,  
   PRIMARY KEY (q_no)  
 )DEFAULT CHARSET=utf8;  
-'''
+```
 이제 모든 기본적인 준비가 끝났습니다.  
 
 8. index2.jsp 파일(메인 홈페이지)을 찾으신 후, 실행해주세요.  
