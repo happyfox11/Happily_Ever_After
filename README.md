@@ -1,23 +1,44 @@
-# Happily_Ever_After Ver2.0
+# 😊 Happily_Ever_After Ver 2.0   
 JSP web page that provides information for people's mental and physical health recovery  
-(Version 1 : Using HTML, CSS, JavaScript, JQuery --> Version 2 : +JSP, MySql)  
+(Version 1 : Using HTML, CSS, JavaScript, JQuery ➡️ Version 2 : +JSP, MySql)  
 
-## 시연영상  
-https://www.youtube.com/watch?v=GM0C6OAXOMI  
+## 🌠 작성자 정보    
+hanstar0211@kyonggi.ac.kr 
 
-## 주의사항  
+## 🌳 개발환경
+- 운영체제 : Windows 10   
+- 통합개발환경 : eclipse   
+- 개발언어 : JSP   
+- 자바개발환경 : JDK-14.0.2   
+- 웹서버 : Tomcat v9.0  
+- 데이터베이스 : MySQL    
+
+## 🎥 시연영상  
+https://www.youtube.com/watch?v=GM0C6OAXOMI    
+
+## 👻 주요 기능
+<strong>1. self-diagnosis :</strong>  
+- 📋emotion/ sleeping/ eating self-diagnosis  
+
+<strong>2️. physical health :</strong>  
+- 🍎 food, 😴 sleep   
+
+<strong>3️. mental health :</strong>  
+- 📗 book, 🎶 music, 📓bible      
+
+<strong>4️. help :</strong>  
+- ☎️ tel, 🏥 consult     
+
+
+
+## 🔔주의사항  
 이 프로젝트는 크롬(100%)에 최적화되어 있습니다.  
 eclipse에서 실행을 시킬 때, 반드시 Chrome으로 실행시켜주세요. 또한, 화면 크기를 반드시 100%로 맞춰주십시오.  
 (내부 브라우저, IE 등으로 실행을 시킬 시에는 글씨체 적용이 되지 않거나 화면이 깨지는 문제가 발생합니다.   
 또한, 화면 크기가 100%가 아닐 경우 화면이 깨지는 문제가 발생합니다. 반드시 지켜주시기를 바랍니다.)  
-또한, 데이터베이스에 관련된 코드를 실행하실 때, 보고서에 첨부된 코드를 복사하여 사용하시는 경우 따옴표로 인해 오류가 발생할 가능성이 높으므로,  
-qt.sql 파일에 작성된 코드를 사용하시기를 부탁드리겠습니다.  
+또한, 데이터베이스에 관련된 코드를 실행하실 때, 보고서에 첨부된 코드를 복사하여 사용하시는 경우 따옴표로 인해 오류가 발생할 가능성이 높으므로, qt.sql 파일에 작성된 코드를 사용하시기를 부탁드리겠습니다.    
 
-## 작성자 정보  
-프로젝트 실행, 동영상 실행등과 같은 문제 혹은 동영상 깨짐과 같은 문제가 발생한다면 연락주세요.  
-hanstar0211@kyonggi.ac.kr 
-
-## 사용 방법  
+## 📋 사용 방법  
 1. eclipse에 Happily 프로젝트를 import 해주세요.  
 2. Servers 프로젝트에 포함되어 있는 tomcat-users.xml에 아래의 4줄을 반드시 추가해주세요. 시큐리티에 의한 로그인에 사용될 것입니다.
 ```
@@ -49,34 +70,34 @@ CREATE TABLE qt (
 (아이디, 비밀번호)로 (admin, admin1234) 혹은 (guest, guest1234)를 입력하시면 됩니다.  
 admin은 관리자 계정이고, guest는 일반 사용자 계정입니다.  
 
-10. 이제 웹 페이지의 메뉴를 하나씩 눌러보며, 그 기능을 알아보세요!   
+10. 이제 웹 페이지의 메뉴를 하나씩 눌러보며, 그 기능을 알아보세요!     
 
-## 주요 파일 정보  
-- Happily 프로젝트  
-	- src 폴더  
-		- dto 폴더  
+## 📝 주요 파일 정보  
+- 📑 Happily   
+	- 📁 src  
+		- 📁 dto   
 			- Consult.java  
-		- dao 폴더  
+		- 📁 dao   
 			- ConsultRepository.java  
-		- bundle 폴더  
+		- 📁 bundle   
 			- message.properties  
 			- message_en.properties  
-	- WebContent 폴더  
+	- 📁 WebContent   
 		- WEB-INF  
 			- web.xml  
 			- lib  
 			     - cos.jar  
 			     - jstl-1.2.jar  
 			     - mysql-connector-java-5.1.49.jar  
-		- 39개의 개별 jsp 파일들  
-		- resources 폴더  
-			- sql 폴더  
+		- 📄 39개의 개별 jsp 파일  
+		- 📁 resources   
+			- 📁 sql   
 			     - qt.sql  
-			- css 폴더  
-			     - 22개의 개별 css 파일들  
-			- img 폴더  
-			     - 51개의 개별 이미지 파일들  
-			- js 폴더  
+			- 📁 css   
+			     - 📄 22개의 개별 css 파일  
+			- 📁 img   
+			     - 📄 51개의 개별 이미지 파일  
+			- 📁 js   
 			     - validation.js  
 
 
