@@ -98,7 +98,13 @@ admin은 관리자 계정이고, guest는 일반 사용자 계정입니다.
 			- 📁 img   
 			     - 📄 51개의 개별 이미지 파일  
 			- 📁 js   
+
 			     - validation.js  
 
+## 💻 실행화면 예시
+|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984185-64f5c86c-b6d2-4e29-86f6-3fc239989027.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984275-00391a93-94a4-4bd2-8ec2-5f6cd1f2a644.png"/>|
+|------|-----|
+|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984289-70d0b08b-be01-4ed7-906c-dc8a54b69104.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984295-ed1ad38e-8403-4f90-be5f-d8daa404dce5.png"/>|
+|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984302-2032d242-9826-418f-aebf-18e1a9970e64.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984810-e3e1b806-b26a-46f4-8d25-f9030651adcc.png"/>>|
+|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984551-26e96f4c-a872-4aab-942e-f3d34832c383.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173985683-2934c8e2-36fe-4bea-b737-045598bb5062.png"/>|
 
-	
