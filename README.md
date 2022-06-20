@@ -1,9 +1,8 @@
 # 😊 Happily_Ever_After Ver 2.0   
 JSP web page that provides information for people's mental and physical health recovery  
 (Version 1 : Using HTML, CSS, JavaScript, JQuery ➡️ Version 2 : +JSP, MySql)  
-
-## 🌠 작성자 정보    
-hanstar0211@kyonggi.ac.kr 
+By hanstar0211@kyonggi.ac.kr   
+<br/>
 
 ## 🌳 개발환경
 - 운영체제 : Windows 10   
@@ -11,32 +10,54 @@ hanstar0211@kyonggi.ac.kr
 - 개발언어 : JSP   
 - 자바개발환경 : JDK-14.0.2   
 - 웹서버 : Tomcat v9.0  
-- 데이터베이스 : MySQL    
+- 데이터베이스 : MySQL 
+<br/>   
 
 ## 🎥 시연영상  
 https://www.youtube.com/watch?v=GM0C6OAXOMI    
+<br/>
 
-## 👻 주요 기능
-<strong>1. self-diagnosis :</strong>  
-- 📋emotion/ sleeping/ eating self-diagnosis  
-
-<strong>2️. physical health :</strong>  
-- 🍎 food, 😴 sleep   
-
-<strong>3️. mental health :</strong>  
-- 📗 book, 🎶 music, 📓bible      
-
-<strong>4️. help :</strong>  
-- ☎️ tel, 🏥 consult     
-
-
+## 👻 주요 기능  
+	
+<table>
+  <tr background-color = "#f0f0f0">
+    <th>Main Menu</th>
+    <th colspan = "3">Sub Menu </th>
+  </tr>
+  <tr>
+	  <td>1. self-diagnosis</td>
+	  <td align=center>📋emotion self-diagnosis</td>
+	  <td align=center>sleeping self-diagnosis</td>
+	  <td align=center> eating self-diagnosis</td>
+  </tr>
+  <tr>
+	  <td>physical health</td>
+	  <td align=center>🍎 food</td>
+	  <td align=center>😴 sleep</td>
+	  <td align=center>-</td>
+  </tr>
+  <tr>
+	  <td>3️. mental health</td>
+	  <td align=center>📗 book</td>
+	  <td align=center>🎶 music</td>
+	  <td align=center>📓bible</td>
+  </tr>
+  <tr>
+	  <td>4️. help</td>
+	  <td align=center>☎️ tel</td>
+	  <td align=center>🏥 consult</td>
+	  <td align=center>-</td>
+  </tr>
+</table>	
+<br/>
 
 ## 🔔주의사항  
-이 프로젝트는 크롬(100%)에 최적화되어 있습니다.  
-eclipse에서 실행을 시킬 때, 반드시 Chrome으로 실행시켜주세요. 또한, 화면 크기를 반드시 100%로 맞춰주십시오.  
-(내부 브라우저, IE 등으로 실행을 시킬 시에는 글씨체 적용이 되지 않거나 화면이 깨지는 문제가 발생합니다.   
-또한, 화면 크기가 100%가 아닐 경우 화면이 깨지는 문제가 발생합니다. 반드시 지켜주시기를 바랍니다.)  
-또한, 데이터베이스에 관련된 코드를 실행하실 때, 보고서에 첨부된 코드를 복사하여 사용하시는 경우 따옴표로 인해 오류가 발생할 가능성이 높으므로, qt.sql 파일에 작성된 코드를 사용하시기를 부탁드리겠습니다.    
+- 이 프로젝트는 크롬(100%)에 최적화되어 있습니다.  
+- eclipse에서 실행을 시킬 때, 반드시 Chrome으로 실행시켜주세요. 또한, 화면 크기를 반드시 100%로 맞춰주십시오.  
+	- 내부 브라우저, IE 등으로 실행을 시킬 시에는 글씨체 적용이 되지 않거나 화면이 깨지는 문제가 발생합니다.   
+	- 화면 크기가 100%가 아닐 경우 화면이 깨지는 문제가 발생합니다. 반드시 지켜주시기를 바랍니다.  
+- 데이터베이스에 관련된 코드를 실행하실 때, 보고서에 첨부된 코드를 복사하여 사용하시는 경우 따옴표로 인해 오류가 발생할 가능성이 높으므로, qt.sql 파일에 작성된 코드를 사용하시기를 부탁드리겠습니다.    
+<br/>
 
 ## 📋 사용 방법  
 1. eclipse에 Happily 프로젝트를 import 해주세요.  
@@ -71,6 +92,7 @@ CREATE TABLE qt (
 admin은 관리자 계정이고, guest는 일반 사용자 계정입니다.  
 
 10. 이제 웹 페이지의 메뉴를 하나씩 눌러보며, 그 기능을 알아보세요!     
+<br/>
 
 ## 📝 주요 파일 정보  
 - 📑 Happily   
@@ -100,6 +122,7 @@ admin은 관리자 계정이고, guest는 일반 사용자 계정입니다.
 			- 📁 js   
 
 			     - validation.js  
+<br/>
 
 ## 💻 실행화면 예시
 |<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984185-64f5c86c-b6d2-4e29-86f6-3fc239989027.png"/>|<img width="100%" src="https://user-images.githubusercontent.com/89199587/173984275-00391a93-94a4-4bd2-8ec2-5f6cd1f2a644.png"/>|
