@@ -19,33 +19,37 @@ https://www.youtube.com/watch?v=GM0C6OAXOMI
 
 ## 👻 주요 기능  
 	
-<table>
+<table width="100%" style="table-layout:fixed">
   <tr background-color = "#f0f0f0">
     <th>Main Menu</th>
-    <th colspan = "3">Sub Menu </th>
+    <th colspan = "4">Sub Menu </th>
   </tr>
   <tr>
 	  <td>1. self-diagnosis</td>
-	  <td align=center>📋emotion self-diagnosis</td>
-	  <td align=center>sleeping self-diagnosis</td>
-	  <td align=center> eating self-diagnosis</td>
+	  <td align=center>📋 emotion self-diagnosis</td>
+	  <td align=center>📋 sleeping self-diagnosis</td>
+	  <td align=center>📋 eating self-diagnosis</td>
+	  <td align=center>-</td>
   </tr>
   <tr>
 	  <td>physical health</td>
 	  <td align=center>🍎 food</td>
 	  <td align=center>😴 sleep</td>
 	  <td align=center>-</td>
+	  <td align=center>-</td>
   </tr>
   <tr>
 	  <td>3️. mental health</td>
 	  <td align=center>📗 book</td>
 	  <td align=center>🎶 music</td>
-	  <td align=center>📓bible</td>
+	  <td align=center>📓 bible</td>
+	  <td align=center>🙏 qt</td>
   </tr>
   <tr>
 	  <td>4️. help</td>
 	  <td align=center>☎️ tel</td>
 	  <td align=center>🏥 consult</td>
+	  <td align=center>-</td>
 	  <td align=center>-</td>
   </tr>
 </table>	
