@@ -25,28 +25,28 @@ https://www.youtube.com/watch?v=GM0C6OAXOMI
     <th colspan = "4">Sub Menu </th>
   </tr>
   <tr>
-	  <td>1. self-diagnosis</td>
-	  <td align=center>📋 emotion self-diagnosis</td>
-	  <td align=center>📋 sleeping self-diagnosis</td>
-	  <td align=center>📋 eating self-diagnosis</td>
-	  <td align=center>-</td>
+	  <td align=center width="20%">1. self-diagnosis</td>
+	  <td align=center width="20%">📋 emotion<br/>self-diagnosis</td>
+	  <td align=center width="20%">📋 sleeping<br/>self-diagnosis</td>
+	  <td align=center width="20%">📋 eating<br/>self-diagnosis</td>
+	  <td align=center width="20%">-</td>
   </tr>
   <tr>
-	  <td>physical health</td>
+	  <td align=center>2. physical health</td>
 	  <td align=center>🍎 food</td>
 	  <td align=center>😴 sleep</td>
 	  <td align=center>-</td>
 	  <td align=center>-</td>
   </tr>
   <tr>
-	  <td>3️. mental health</td>
+	  <td align=center>3️. mental health</td>
 	  <td align=center>📗 book</td>
 	  <td align=center>🎶 music</td>
 	  <td align=center>📓 bible</td>
 	  <td align=center>🙏 qt</td>
   </tr>
   <tr>
-	  <td>4️. help</td>
+	  <td align=center>4️. help</td>
 	  <td align=center>☎️ tel</td>
 	  <td align=center>🏥 consult</td>
 	  <td align=center>-</td>
